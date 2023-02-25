@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  height: 100px;
+  padding: 0 30px;
+}
+
+.trybewarts-login {
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+
+#email {
+  margin: 0 10px;
+}
+
+#senha {
+  margin: 0 10px;
+}
+
+input {
+  background-color: beige;
+  margin: 0 px;
+  padding: 7px;
+  border-radius: 7px;
+  border: none;
+}
+
+#buttonEntrar {
+  padding: 7px 20px;
+  border-radius: 7px;
+  background-color: blueviolet;
+  border: none;
+  color: white;
+}
+
+#trybewarts-header-title {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(235, 235, 235);
+  padding: 20px 0;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#fullName {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+#emailHouse {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+
+#second-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.family {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.radio {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+#submit-btn {
+  padding: 7px 20px;
+  border-radius: 7px;
+  background-color: blueviolet;
+  border: none;
+  color: white;
+}
+
+#input-name {
+  background-color: beige;
+}
+
+#input-lastname {
+  background-color: beige;
+}
+
+#input-email {
+  background-color: beige;
+}
+
+#textarea {
+  background-color: beige;
+}
+
+#footer {
+  text-align: center;
+  color: white;
+  background-color: rgb(70, 70, 70);
+  padding: 20px 0;
+}
